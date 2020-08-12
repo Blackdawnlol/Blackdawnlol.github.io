@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  font-family: "Bebas Neue", cursive;
+  background: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: block;
+  background: rgba(81, 191, 230, 0.6);
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem 0;
+  color: #DBDCE5;
+}
+@media (min-width: 992px) {
+  ul {
+    background: -moz-linear-gradient(left, rgba(80, 190, 230, 0) 0%, rgba(80, 190, 230, 0.5) 15%, rgba(80, 190, 230, 0.5) 85%, rgba(80, 190, 230, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(80, 190, 230, 0) 0%, rgba(80, 190, 230, 0.5) 15%, rgba(80, 190, 230, 0.5) 85%, rgba(80, 190, 230, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(80, 190, 230, 0) 0%, rgba(80, 190, 230, 0.5) 15%, rgba(80, 190, 230, 0.5) 85%, rgba(80, 190, 230, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#0050bee6", endColorstr="#0050bee6",GradientType=1 );
+    /* IE6-9 */
+  }
+}
+@media (min-width: 1200px) {
+  ul {
+    background: -moz-linear-gradient(left, rgba(80, 190, 230, 0) 0%, rgba(80, 190, 230, 0) 10%, rgba(80, 190, 230, 0.5) 35%, rgba(80, 190, 230, 0.5) 65%, rgba(80, 190, 230, 0) 90%, rgba(80, 190, 230, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(80, 190, 230, 0) 0%, rgba(80, 190, 230, 0) 10%, rgba(80, 190, 230, 0.5) 35%, rgba(80, 190, 230, 0.5) 65%, rgba(80, 190, 230, 0) 90%, rgba(80, 190, 230, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(80, 190, 230, 0) 0%, rgba(80, 190, 230, 0) 10%, rgba(80, 190, 230, 0.5) 35%, rgba(80, 190, 230, 0.5) 65%, rgba(80, 190, 230, 0) 90%, rgba(80, 190, 230, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#0050bee6", endColorstr="#0050bee6",GradientType=1 );
+    /* IE6-9 */
+  }
+}
+@media (max-width: 991px) {
+  ul {
+    bottom: 0;
+    font-size: 2.25rem;
+  }
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 0.366em;
+}
+@media (min-width: 992px) {
+  ul li {
+    padding-right: 0;
+  }
+  ul li:not(:last-child) {
+    margin: 0 0.333em;
+  }
+}
+@media (max-width: 991px) {
+  ul li {
+    line-height: 1.5em;
+  }
+}
+ul li a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+ul li a:hover {
+  color: white;
+}
+ul .lg-only {
+  display: none;
+}
+@media (min-width: 992px) {
+  ul .lg-only {
+    display: inline-block;
+  }
+}
+ul .sm-only {
+  display: none;
+}
+@media (max-width: 991px) {
+  ul .sm-only {
+    display: inline-block;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 300px;
+}
+.logo img {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .logo {
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .logo img {
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .logo img {
+    width: 250px;
+  }
+}
+@media (max-width: 200px) {
+  .logo img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
